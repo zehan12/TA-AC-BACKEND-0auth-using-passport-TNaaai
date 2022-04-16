@@ -7,3 +7,6 @@ Q1. Create an express application using generator and implement github login usi
 - implement logout
 
 Q2. Grab clientId and clientSecret from google using Google's developer console.
+
+
+mongodb+srv://zehan:<password>@cluster0.hi8gv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority

@@ -1,0 +1,30 @@
+{
+  "name": "loginwithgoogle",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node ./bin/www",
+    "dev": "cross-env NODE_ENV=developement nodemon ./bin/www"
+  },
+  "dependencies": {
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "http-errors": "~1.6.3",
+    "i": "^0.3.7",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.3.0",
+    "morgan": "^1.10.0",
+    "npm": "^8.7.0",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.15"
+  }
+}

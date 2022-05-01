@@ -1,0 +1,13 @@
+<header class="header">
+<nav class="nav flex">
+  <h1><a href="/" class="brand">Blog App</a></h1>
+  <%if(user){%>
+    <div>
+      <span>User: <%=user.username%></span>
+      <a class="btn" href="/logout">Log Out</a>
+    </div>
+  <%}else{%>
+    <a class="btn" href="/auth/github">Log In</a>
+  <%}%>
+</nav>
+</header>
